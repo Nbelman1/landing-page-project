@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -26,6 +26,9 @@ button {
     width: 100px;
     background-color: #3882f6;
     color: #F9FAF8;
+    padding: 6px 18px;
+    border-radius: 8px;
+    margin-top: 25px;
 }
 
 .bg-blue {
@@ -45,7 +48,7 @@ button {
     justify-content: space-between;
     align-items: center;
     margin: 0 8% 16px; 
-    padding: 16px;
+    padding: 8px 32px;
 }
 
 .logo {
@@ -56,12 +59,13 @@ button {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 32px;
 }
 
 .header-right {
-    margin-right: 9%;
+    margin-right: 15%;
 }
 
 .header-pic {
@@ -73,16 +77,18 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-left: 10%;
+    margin-left: 15%;
+    margin-right: 25px;
 }
 
 .bg-white {
-    margin-top: 40px;
     display: flex;
     background-color: #F9FAF8;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin: 40px 15%;
 }
 
 .skele-pics {
@@ -90,11 +96,11 @@ button {
     max-height: 250px;
 }
 
-.text-blue-bold {
+.text-blue {
     color: #1F2937;
 }
 
-.info-header-text {
+.text-blue-bold {
     color: #1F2937;
     font-weight: 800;
     font-size: 26px;
@@ -104,6 +110,64 @@ button {
 
 .container-info {
     text-align: center;
+    padding: 8px;
+}
+
+.bg-gray {
+    background-color: #E5E7EB;
+    margin: 0 -8px;
     padding: 40px;
 }
 
+.blue-light-italic {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 25%;
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 24%;
+    color: #1F2937;
+    font-size: 32px;
+}
+
+.cta-box {
+    background-color:#3882f6;
+    width: 75%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.cta-text-reg, .cta-text-bold {
+    color:#F9FAF8;
+    font-size: 18px;
+    padding: 0 100px;
+}
+
+.cta-text-bold {
+    font-weight: 700;
+}
+
+.cta-box-right {
+    padding-right: 100px;
+    padding-bottom: 25px;
+    border: 2px #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    margin: 0 -8px -8px;
+    color:#F9FAF8;
+    text-align: center;
+    padding: 18px;
+}
